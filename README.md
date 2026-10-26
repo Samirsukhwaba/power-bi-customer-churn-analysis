@@ -1,72 +1,65 @@
-Customer Churn Analysis Dashboard | Power BI
+# Customer Churn Analysis Dashboard | Power BI
 
-Project Overview
+## Project Overview
 
-This project uses Microsoft Power BI to analyse customer churn and identify patterns associated with customer retention.
+This project uses Microsoft Power BI to analyse customer churn and identify patterns related to customer retention. An interactive dashboard helps explore customer demographics and factors associated with customers leaving a service.
 
-The dashboard transforms customer data into interactive visualisations to help users understand customer churn rates and explore the factors associated with customers leaving a service.
+## Objectives
 
-Objectives
+- Calculate the overall customer churn rate.
+- Analyse customer demographics.
+- Investigate churn by contract type.
+- Compare churn across payment methods and internet services.
+- customer tenure distribution across monthly range.
+- Present insights through interactive visualisations.
 
-* Calculate and monitor the overall customer churn rate.
-* Analyse customer demographics.
-* Investigate churn patterns across different contract types.
-* Examine churn across payment methods.
-* Compare churn across internet service categories.
-* Present findings through an interactive dashboard.
+## Tools and Technologies
 
-Tools and Technologies
+- **Power BI Desktop:** Dashboard development and visualisation.
+- **Power Query:** Data cleaning and transformation.
+- **DAX:** Measures and calculations.
+- **Data Modelling:** Organising data for analysis.
 
-* Power BI Desktop: Dashboard development and data visualisation.
-* Power Query: Data cleaning and transformation.
-* DAX: Measures and calculations.
-* Data modelling: Organising data for analysis.
+## Dashboard Pages
 
-Dashboard Pages
+1. **Churn Rate Overview:** Summarises customer numbers, churned customers and churn rate.
+2. **Customer Demographics:** Explores customer characteristics and churn patterns.
+3. **Customer Tenure Distribution:** Visualises the number of customers across monthly tenure ranges, from 0–11 months to 72–83 months.
+4. **Churn Analysis:** Examines churn by contract type, payment method and internet service.
 
-1. Churn Rate Overview
+## Key Measures
 
-Provides a high-level overview of customer churn and retention.
-
-2. Customer Demographics
-
-Explores customer characteristics and their relationship with churn.
-
-3. Churn Analysis
-
-Examines churn patterns across contract types, payment methods and internet services.
-
-Key Measures
-
-* Total Customers
-* Churned Customers
-* Churn Rate
+- Total Customers
+- Churned Customers
+- Churn Rate
 
 Example DAX measure:
 
+```DAX
 Churn Rate =
 DIVIDE(
     [Churned Customers],
     [Total Customers],
     0
 )
+```
 
-The measure divides the number of churned customers by the total number of customers. The third argument returns zero if the denominator is zero.
+The measure calculates the percentage of customers who have churned. The final `0` returns zero if the total customer count is zero.
 
-Key Findings
+## Dataset
 
-Add three to five findings based on the actual results shown in your dashboard.
+The project uses a single CSV file containing customer information and churn-related data.
 
-For example, identify which contract type has the highest churn rate, if your analysis supports that conclusion. Include actual figures from your report rather than assumptions.
+## Key Findings
 
-Project Files
+Add three to five findings based on the actual results shown in the dashboard, including relevant figures.
 
-* Power BI report: dashboard/Customer_Churn_Dashboard.pbix
-* Dashboard screenshots: screenshots/
-* Dataset information: data/README.md
+## Project Files
 
-What I Learned
+- **Power BI report:** `dashboard/Customer_Churn_Dashboard.pbix`
+- **Dataset:** `data/customer_churn.csv`
+- **Screenshots:** `screenshots/`
 
-This project helped me practise data cleaning, DAX calculations, data modelling and dashboard design using Power BI.
+## What I Learned
 
-It also strengthened my ability to explore customer behaviour and communicate analytical findings through interactive visualisations.
+This project strengthened my skills in data cleaning, DAX calculations, data modelling and dashboard development using Power BI. It also helped me practise analysing customer behaviour and presenting insights through interactive visualisations.

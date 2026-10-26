@@ -23,9 +23,22 @@ This project uses Microsoft Power BI to analyse customer churn and identify patt
 ## Dashboard Pages
 
 1. **Churn Rate Overview:** Summarises customer numbers, churned customers and churn rate.
-2. **Customer Demographics:** Explores customer characteristics and churn patterns.
-3. **Customer Tenure Distribution:** Visualises the number of customers across monthly tenure ranges, from 0–11 months to 72–83 months.
-4. **Churn Analysis:** Examines churn by contract type, payment method and internet service.
+  
+   <img width="1189" height="671" alt="Screenshot 2026-10-26 at 3 43 33 pm" src="https://github.com/user-attachments/assets/aca1f6e0-43ae-4e71-9e82-c5180bb52f76" />
+
+   
+3. **Customer Demographics:** Explores customer characteristics and churn patterns.
+   
+   <img width="1189" height="671" alt="Screenshot 2026-10-26 at 3 43 42 pm" src="https://github.com/user-attachments/assets/560c7850-e5e2-4ce4-a279-957700825703" />
+
+   
+5. **Customer Tenure Distribution:** Visualises the number of customers across monthly tenure ranges, from 0–11 months to 72–83 months.
+   
+     <img width="1189" height="671" alt="Screenshot 2026-10-26 at 3 43 56 pm" src="https://github.com/user-attachments/assets/a140d732-3b78-477d-8d71-149105566a20" />
+7. **Churn Analysis:** Examines churn by contract type, payment method and internet service.
+   
+   <img width="1189" height="671" alt="Screenshot 2026-10-26 at 3 43 50 pm" src="https://github.com/user-attachments/assets/045870a8-166c-4215-b287-59e4a3371d9f" />
+
 
 ## Key Measures
 
@@ -46,19 +59,7 @@ DIVIDE(
 
 The measure calculates the percentage of customers who have churned. The final `0` returns zero if the total customer count is zero.
 
-## Dataset
 
-The project uses a single CSV file containing customer information and churn-related data.
-
-## Key Findings
-
-Add three to five findings based on the actual results shown in the dashboard, including relevant figures.
-
-## Project Files
-
-- **Power BI report:** `dashboard/Customer_Churn_Dashboard.pbix`
-- **Dataset:** `data/customer_churn.csv`
-- **Screenshots:** `screenshots/`
 
 ## What I Learned
 

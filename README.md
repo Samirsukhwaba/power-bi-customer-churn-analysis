@@ -10,7 +10,7 @@ This project uses Microsoft Power BI to analyse customer churn and identify patt
 - Analyse customer demographics.
 - Investigate churn by contract type.
 - Compare churn across payment methods and internet services.
-- customer tenure distribution across monthly range.
+- Analyse customer tenure distribution across monthly ranges.
 - Present insights through interactive visualisations.
 
 ## Tools and Technologies
